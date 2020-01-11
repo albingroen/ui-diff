@@ -2,11 +2,13 @@
 
 # ui-diff
 
-The tool for frontend screenshot testing
+🖼 The tool for frontend screenshot testing
 
 ## How to use it
 
-### 1. Create a new project on app.ui-diff.com
+### 1. Create a new project on ui-diff
+
+[app.ui-diff.com/login](https://ui-diff-frontend.now.sh/new-project)
 
 ### 2. Install dependency with yarn or npm
 
@@ -14,18 +16,15 @@ The tool for frontend screenshot testing
 
 ### 3. Supply configuration files (in project root)
 
-These can be downloaded at app.ui-diff.com/documentation
-
-1. ui-diff-config.js
-2. ui-diff-pages.js
+<strong>These can be downloaded at app.ui-diff.com/documentation</strong>
 
 ### 4. Update configuration files
 
-ui-diff.config.js
+<strong>ui-diff-config.js</strong>
 1. Add your environments
 2. Add project API-token
 
-ui-diff-pages.js
+<strong>ui-diff-pages.js</strong>
 1. Add the pages you want to test
 
 ### 5. Run screenshot tests
@@ -41,4 +40,6 @@ ui-diff-pages.js
 
 ## Contributors
 
-[Albin Groen](https://github.com/albingroen)
+[<img alt="albingroen" src="https://avatars2.githubusercontent.com/u/19674362?v=4&s=117" width=117>](https://github.com/albingroen) |
+:---:|
+[albingroen](https://github.com/albingroen)|
