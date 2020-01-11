@@ -16,7 +16,7 @@
 
 ### 3. Supply configuration files (in project root)
 
-<strong>These can be downloaded at app.ui-diff.com/documentation</strong>
+These can be downloaded at [app.ui-diff.com/documentation](https://app.ui-diff.com/documentation)
 
 ### 4. Update configuration files
 
