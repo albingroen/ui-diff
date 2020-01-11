@@ -1,12 +1,21 @@
 {
   "name": "ui-diff",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "🖼 The tool for frontend screenshot testing",
   "main": "index.js",
   "repository": "git@github.com:albingroen/ui-diff.git",
   "author": "Albin Groen <albin.groen@gmail.com>",
   "license": "NO LICENSE",
   "private": false,
+  "keywords": [
+    "testing",
+    "tests",
+    "frontend-testing",
+    "puppeteer",
+    "frontend",
+    "screenshots",
+    "screenshot-testing"
+  ],
   "bin": {
     "screenshot": "./index.js"
   },
