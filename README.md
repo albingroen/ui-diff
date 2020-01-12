@@ -8,7 +8,7 @@
 
 ### 1. Create a new project on ui-diff
 
-[app.ui-diff.com/new-project](https://ui-diff-frontend.now.sh/new-project)
+[app.ui-diff.com/new-project](https://app.ui-diff.com/new-project)
 
 ### 2. Install dependency with yarn or npm
 
@@ -16,7 +16,7 @@
 
 ### 3. Supply configuration files (in project root)
 
-These can be downloaded at [app.ui-diff.com/documentation](http://ui-diff-frontend.now.sh/documentation)
+These can be downloaded at [app.ui-diff.com/documentation](https://app.ui-diff.com/documentation)
 
 ### 4. Update configuration files
 
