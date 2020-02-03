@@ -62,19 +62,22 @@ async function main() {
 
     // Take screenshot and close page. On last page also close browser
     try {
-      if(actions) {
-        const runPossibleEvent = async (element, event) => {
+      if (actions) {
+        const runPossibleEvent = async (element, event, value) => {
           const events = {
-            click: await element.click()
-          }
+            click: await element.click(),
+            type: await element.type(value || "")
+          };
 
-          return events[event]
-        }
+          return events[event];
+        };
 
         actions.forEach(async action => {
           const element = await page.$(action.element);
-          await runPossibleEvent(element, action.event)
-        })
+          if (element) {
+            await runPossibleEvent(element, action.event, action.value);
+          }
+        });
       }
 
       await page
