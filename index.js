@@ -30,7 +30,7 @@ async function main() {
   let progress = 0;
 
   // Async function for taking a screenshot
-  async function run(url, name, variant) {
+  async function run(url, name, variant, actions) {
     const page = await browser.newPage();
 
     // Set browser dimensions for screenshot
@@ -62,6 +62,21 @@ async function main() {
 
     // Take screenshot and close page. On last page also close browser
     try {
+      if(actions) {
+        const runPossibleEvent = async (element, event) => {
+          const events = {
+            click: await element.click()
+          }
+
+          return events[event]
+        }
+
+        actions.forEach(async action => {
+          const element = await page.$(action.element);
+          await runPossibleEvent(element, action.event)
+        })
+      }
+
       await page
         .screenshot({
           encoding: "binary",
@@ -109,16 +124,16 @@ async function main() {
   if (!args.env || !envs[args.env]) {
     // Screenshot pages on localhost
     pages.forEach(p => {
-      run(`${envs.local}${p.path}`, p.name, "local");
+      run(`${envs.local}${p.path}`, p.name, "local", p.actions);
     });
 
     // Screenshot pages on live
     pages.forEach(p => {
-      run(`${envs.live}${p.path}`, p.name, "live");
+      run(`${envs.live}${p.path}`, p.name, "live", p.actions);
     });
   } else {
     pages.forEach(p => {
-      run(`${envs[args.env]}${p.path}`, p.name, args.env);
+      run(`${envs[args.env]}${p.path}`, p.name, args.env, p.actions);
     });
   }
 }
