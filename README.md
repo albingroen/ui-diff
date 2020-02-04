@@ -1,4 +1,4 @@
-<center><img src="./static/readme.png" width="800" /></center>
+<center><img src="./static/logo.png" width="200" /></center>
 
 # ui-diff
 
@@ -16,20 +16,13 @@
 
 ### 3. Supply configuration files (in project root)
 
-These can be downloaded at [app.ui-diff.com/documentation](https://app.ui-diff.com/documentation)
+These can be found at [app.ui-diff.com/documentation](https://app.ui-diff.com/documentation)
 
-### 4. Update configuration files
-
-<strong>ui-diff-config.js</strong>
-1. Add your environments
-2. Add project API-token
-
-<strong>ui-diff-pages.js</strong>
-1. Add the pages you want to test
-
-### 5. Run screenshot tests
+### 4. Run screenshot tests
 
     yarn screenshots
+
+Command line options can also be found at [app.ui-diff.com/documentation](https://app.ui-diff.com/documentation)
 
 ## Built using
 
