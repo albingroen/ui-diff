@@ -1,10 +1,10 @@
+[![npm version](https://badge.fury.io/js/ui-diff.svg)](https://badge.fury.io/js/ui-diff)
+
 <center><img src="./static/logo.png" width="100" /></center>
 
 # ui-diff
 
 🖼 The tool for frontend screenshot testing
-
-<img alt="npm" src="https://img.shields.io/npm/v/ui-diff">
 
 ## How to use it
 
