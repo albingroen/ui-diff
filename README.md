@@ -4,7 +4,7 @@
 
 🖼 The tool for frontend screenshot testing
 
-![npm](https://img.shields.io/npm/v/ui-diff)
+<img alt="npm" src="https://img.shields.io/npm/v/ui-diff">
 
 ## How to use it
 
