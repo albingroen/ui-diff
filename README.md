@@ -1,4 +1,4 @@
-<center><img src="./static/logo.png" width="200" /></center>
+<center><img src="./static/logo.png" width="100" /></center>
 
 # ui-diff
 
