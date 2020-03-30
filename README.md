@@ -4,6 +4,8 @@
 
 🖼 The tool for frontend screenshot testing
 
+![npm](https://img.shields.io/npm/v/ui-diff)
+
 ## How to use it
 
 ### 1. Create a new project on ui-diff
