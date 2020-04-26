@@ -96,7 +96,7 @@ async function main() {
 
             // Upload image to ui-diff
             await axios.post(
-              "https://infinite-plains-43173.herokuapp.com/projects/images",
+              "http://localhost:5000/projects/images",
               { image: imageBuffer, env: variant, name },
               { headers: { "api-token": config.token } }
             );
