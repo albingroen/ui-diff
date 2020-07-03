@@ -20,7 +20,7 @@ These can be found at [ui-diff.com/documentation/getting-started](https://ui-dif
 
     yarn screenshots
 
-Command line options can also be found at [app.ui-diff.com/documentation](https://app.ui-diff.com/documentation)
+Command line options can also be found at [ui-diff.com/documentation/getting-started](https://ui-diff.com/documentation/getting-started)
 
 ## Built using
 
