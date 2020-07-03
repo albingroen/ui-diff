@@ -14,7 +14,7 @@
 
 ### 3. Supply configuration files (in project root)
 
-These can be found at [app.ui-diff.com/documentation](https://app.ui-diff.com/documentation)
+These can be found at [ui-diff.com/documentation/getting-started](https://ui-diff.com/documentation/getting-started)
 
 ### 4. Run screenshot tests
 
